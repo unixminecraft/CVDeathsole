@@ -1,0 +1,6 @@
+name: CVDeathsole
+main: org.cubeville.cvdeathsole.CVDeathsole
+author: FrediW
+version: 0.1
+
+depend: [CVIPC]

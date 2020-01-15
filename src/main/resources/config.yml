@@ -1,0 +1,30 @@
+fall:
+- '&f<&4Deathsole&f> &5%player% &ctried to /fly. It did not work.'
+- '&f<&4Deathsole&f> &5%player%&c, you are notgonnasurvivetha-...great. Someone clean that up.'
+- '&f<&4Deathsole&f> &5%player% &ctried to fly like an eagle. They flew more like a brick.'
+- '&f<&4Deathsole&f> News Flash &5%player%&c! There''s a cliff there!'
+
+block_explosion:
+- '&f<&4Deathsole&f> &5%player &cjust sat there and watched the fuse burn.'
+- '&f<&4Deathsole&f> &5%player&c, maybe you should give up your dream of being a pyrotechnician.'
+- '&f<&4Deathsole&f> &5%player &cthought a dirt bunker would protect him from the blast.'
+- '&f<&4Deathsole&f> &5%player&c, you are hereby banned from using explosives.'
+- '&f<&4Deathsole&f> &5%player &cwent out with a BANG!'
+- '&f<&4Deathsole&f> &5%player &cblew up.'
+- '&f<&4Deathsole&f> &5%player &cbecame a firework.'
+
+cramming:
+- '&f<&4Deathsole&f> &5%player% &ctried to cuddle with his chickens'
+
+drowning:
+- '&f<&4Deathsole&f> &5%player &cforgot to turn Scuba on.'
+- '&f<&4Deathsole&f> &5%player&c, a pumpkin on your head does not let you scuba dive.'
+- '&f<&4Deathsole&f> &5%player &ccannot breathe underwater. Who knew...'
+- '&f<&4Deathsole&f> &5%player &cput his ear to the ocean floor to try and hear fish.'
+- '&f<&4Deathsole&f> &5%player &cjust wanted some clay...'
+- '&f<&4Deathsole&f> &5%player &cis not fit to be the next Aquaman.'
+- '&f<&4Deathsole&f> &5%player &capparently wanted to live with the squids.'
+          
+unknown:
+- '&f<&4Deathsole&f> &5%player% &cdid something amazing. Amazingly dumb.'
+- '&f<&4Deathsole&f> &5%player&c, I will not tell them what you did, just that it was dumb.'
