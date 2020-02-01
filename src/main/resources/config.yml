@@ -1,30 +1,97 @@
+contact:
+- '&f<&4Deathsole&f> &cThat''s not a very cuddly plant, &5%player%&c...'
+
+entity_attack:
+
+entity_sweep_attack:
+
+projectile:
+- '&f<&4Deathsole&f> &5%player% needs more practice before they can become a Skeleton.'
+- '&f<&4Deathsole&f> &5%player% looks more like a pincushion now.'
+
+suffocation:
+- '&f<&4Deathsole&f> &5%player% &clearned that they need some clean air to breath...'
+- '&f<&4Deathsole&f> &5%player% &cthought that burying their head in the sand would protect them.'
+
 fall:
 - '&f<&4Deathsole&f> &5%player% &ctried to /fly. It did not work.'
 - '&f<&4Deathsole&f> &5%player%&c, you are notgonnasurvivetha-...great. Someone clean that up.'
 - '&f<&4Deathsole&f> &5%player% &ctried to fly like an eagle. They flew more like a brick.'
 - '&f<&4Deathsole&f> News Flash &5%player%&c! There''s a cliff there!'
 
-block_explosion:
-- '&f<&4Deathsole&f> &5%player &cjust sat there and watched the fuse burn.'
-- '&f<&4Deathsole&f> &5%player&c, maybe you should give up your dream of being a pyrotechnician.'
-- '&f<&4Deathsole&f> &5%player &cthought a dirt bunker would protect him from the blast.'
-- '&f<&4Deathsole&f> &5%player&c, you are hereby banned from using explosives.'
-- '&f<&4Deathsole&f> &5%player &cwent out with a BANG!'
-- '&f<&4Deathsole&f> &5%player &cblew up.'
-- '&f<&4Deathsole&f> &5%player &cbecame a firework.'
+fire:
 
-cramming:
-- '&f<&4Deathsole&f> &5%player% &ctried to cuddle with his chickens'
+fire_tick:
+- '&f<&4Deathsole&f> &5%player%&c! STOP! DROP! ... Well, 2 out of 3 isn''t bad.'
+
+melting:
+
+lava:
+- '&f<&4Deathsole&f> &cThe glowy jello hurts, doesn''t it, &5%player%&c?'
+- '&f<&4Deathsole&f> &5%player% &ctried taking "The Floor is Lava" to the next level.'
 
 drowning:
-- '&f<&4Deathsole&f> &5%player &cforgot to turn Scuba on.'
-- '&f<&4Deathsole&f> &5%player&c, a pumpkin on your head does not let you scuba dive.'
-- '&f<&4Deathsole&f> &5%player &ccannot breathe underwater. Who knew...'
-- '&f<&4Deathsole&f> &5%player &cput his ear to the ocean floor to try and hear fish.'
-- '&f<&4Deathsole&f> &5%player &cjust wanted some clay...'
-- '&f<&4Deathsole&f> &5%player &cis not fit to be the next Aquaman.'
-- '&f<&4Deathsole&f> &5%player &capparently wanted to live with the squids.'
+- '&f<&4Deathsole&f> &5%player% &cforgot to turn Scuba on.'
+- '&f<&4Deathsole&f> &5%player%&c, a pumpkin on your head does not let you scuba dive.'
+- '&f<&4Deathsole&f> &5%player% &ccannot breathe underwater. Who knew...'
+- '&f<&4Deathsole&f> &5%player% &cput his ear to the ocean floor to try and hear fish.'
+- '&f<&4Deathsole&f> &5%player% &cjust wanted some clay...'
+- '&f<&4Deathsole&f> &5%player% &cis not fit to be the next Aquaman.'
+- '&f<&4Deathsole&f> &5%player% &capparently wanted to live with the squids.'
+
+block_explosion:
+- '&f<&4Deathsole&f> &5%player% &cjust sat there and watched the fuse burn.'
+- '&f<&4Deathsole&f> &5%player%&c, maybe you should give up your dream of being a pyrotechnician.'
+- '&f<&4Deathsole&f> &5%player% &cthought a dirt bunker would protect him from the blast.'
+- '&f<&4Deathsole&f> &5%player%&c, you are hereby banned from using explosives.'
+- '&f<&4Deathsole&f> &5%player% &cwent out with a BANG!'
+- '&f<&4Deathsole&f> &5%player% &cblew up.'
+- '&f<&4Deathsole&f> &5%player% &cbecame a firework.'
+
+entity_explosion:
+
+void:
+- '&f<&4Deathsole&f> &5%player% &cis still falling... Or not...'
+
+lightning:
+
+suicide:
+- '&f<&4Deathsole&f> &cI guess that''s one way to get out of that situation, &5%player%&c...'
+- '&f<&4Deathsole&f> &cAha, &5%player% &cfound the easy way out of that fight.'
+
+starvation:
+- '&f<&4Deathsole&f> &5%player%&c, you do not have /god. Food is stil required.'
+- '&f<&4Deathsole&f> &5%player% &cthought they could live on a diet of water and air.'
+
+poison:
+
+magic:
+- '&f<&4Deathsole&f> &cNo, &5%player%&c, point the wand the OTHER ... way.'
+- '&f<&4Deathsole&f> &5%player% &cnever did complete their training at Hogwarts...'
+
+wither:
+
+falling_block:
+- '&f<&4Deathsole&f> &c"Standing under anvils is fun." -&5%player%'
+- '&f<&4Deathsole&f> &5%player% &cwanted to be like RoadRunner. They were more like Wild E. Coyote.'
+
+thorns:
+
+dragon_breath:
+- '&f<&4Deathsole&f> &cLooks like &5%player% &cfound out exactly &c&ohow &r&cstinky the dragon''s breath is.'
+
+fly_into_wall:
+- '&f<&4Deathsole&f> &5%player%&c! Turn! TURN! TUR... ... Nevermind.'
+- '&f<&4Deathsole&f> &5%player% &clearned what it was like to glide face-first into a wall.'
+
+hot_floor:
+- '&f<&4Deathsole&f> &cHey &5%player%&c, that''s not a sauna floor...'
+- '&f<&4Deathsole&f> &5%player% &cdidn''t believe the floor was lava. They were right, but it still hurt.'
+
+cramming:
+- '&f<&4Deathsole&f> &5%player% &ctried to cuddle with his chickens.'
+- '&f<&4Deathsole&f> &cWith that many mobs in one place, something has to pop. &5%player% &cdid.'
           
 unknown:
 - '&f<&4Deathsole&f> &5%player% &cdid something amazing. Amazingly dumb.'
-- '&f<&4Deathsole&f> &5%player&c, I will not tell them what you did, just that it was dumb.'
+- '&f<&4Deathsole&f> &5%player%&c, I will not tell them what you did, just that it was dumb.'
