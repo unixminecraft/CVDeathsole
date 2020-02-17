@@ -9,9 +9,11 @@ import java.util.UUID;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.plugin.PluginManager;
@@ -45,9 +47,21 @@ public class CVDeathsole extends JavaPlugin implements Listener
         }
         lastDeathMessage.put(playerId, System.currentTimeMillis());
         
+        String cause;
+        
         EntityDamageEvent damageEvent = player.getLastDamageCause();
-        String cause = damageEvent.getCause().toString().toLowerCase();
-
+        if(damageEvent instanceof EntityDamageByEntityEvent) {
+        	String damagerName = ((EntityDamageByEntityEvent) damageEvent).getDamager().getClass().getSimpleName().toLowerCase();
+        	if(deathMessages.containsKey(damagerName)) {
+        		cause = damagerName;
+        	}
+        	else {
+        		cause = damageEvent.getCause().toString().toLowerCase();
+        	}
+        }
+        else {
+        	cause = damageEvent.getCause().toString().toLowerCase();
+        }
         
         List<String> clist = deathMessages.get(cause);
         if(clist == null) {
