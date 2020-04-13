@@ -136,7 +136,7 @@ suicide:
 - '&f<&4Deathsole&f> &cAha, &5%player% &cfound the easy way out of that fight.'
 
 starvation:
-- '&f<&4Deathsole&f> &5%player%&c, you do not have /god. Food is stil required.'
+- '&f<&4Deathsole&f> &5%player%&c, you do not have /god. Food is still required.'
 - '&f<&4Deathsole&f> &5%player% &cthought they could live on a diet of water and air.'
 
 poison:
